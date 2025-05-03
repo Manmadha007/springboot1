@@ -1,0 +1,4 @@
+/home/ubuntu/docker-Java-kubernetes-project/stockmanager/src/test/java/functional/FunctionalTests.java
+/home/ubuntu/docker-Java-kubernetes-project/stockmanager/src/test/java/functional/CucumberSpringConfiguration.java
+/home/ubuntu/docker-Java-kubernetes-project/stockmanager/src/test/java/uk/co/danielbryant/djshopping/stockmanager/ShopfrontApplicationTests.java
+/home/ubuntu/docker-Java-kubernetes-project/stockmanager/src/test/java/functional/RestStepDefs.java
