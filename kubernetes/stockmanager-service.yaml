@@ -13,14 +13,12 @@ spec:
   - protocol: TCP
     port: 8030
     name: http
-
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: stockmanager
-spec:
-  spec:
+spec:  # Remove the extra spec here
   selector:
     matchLabels:
       app: stockmanager
@@ -29,7 +27,7 @@ spec:
     metadata:
       labels:
         app: stockmanager
-    spec:
+    spec:  # This should be here for the pod spec
       containers:
       - name: stockmanager
         image: thetips4you/stockmanager:latest
